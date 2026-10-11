@@ -1,0 +1,18 @@
+Independent IC correctness audit
+Executed successfully on 2026-10-09 using Python 3.12.14.
+
+PASS directed chain: 8 exact live-edge states; E[total]=1.875
+PASS fork: 4 exact live-edge states; E[total]=2
+PASS two convergent paths: 16 exact live-edge states; E[total]=2.4375
+PASS two distinct sources can try one target: 16 exact live-edge states; E[total]=2.75
+PASS cycle does not retry active sources: 8 exact live-edge states; E[total]=1.75
+PASS p=0, p=1, and reverse reachability is absent
+PASS seed order: out-degree descending, original-ID ties, distinct departments
+PASS metrics exclude seed NODES; seed departments may count via other activated members
+
+For every enumerated live-edge state, the final active set and activation wave
+were compared with an independently implemented synchronous, one-attempt IC
+procedure. Main production simulations were not rerun as part of this audit.
+
+This audit checks the program's model semantics. It does not validate whether
+the assumed IC model or the chosen probabilities match real email diffusion.

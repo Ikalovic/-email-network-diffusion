@@ -1,0 +1,5 @@
+k,strategy,seed_nodes,seed_department_count,seed_department_max_share,seed_mean_out_degree,one_hop_unique_nonseed,one_hop_department_count,redundant_contact_fraction,seed_cross_department_edge_fraction
+5,degree,160;82;121;107;86,1,1,236.8,503,40,0.5697177074,0.9408783784
+5,dispersed,160;13;249;183;434,5,0.2,195.4,477,40,0.5062111801,0.9170931423
+10,degree,160;82;121;107;86;62;13;249;183;434,5,0.6,201.7,570,40,0.7096281202,0.9241447695
+10,dispersed,160;13;249;183;434;5;211;377;84;21,10,0.1,166.3,620,40,0.6158612144,0.9013830427
